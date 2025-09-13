@@ -1,3 +1,4 @@
+
 # Digit Classification with PCA
 
 This project demonstrates how to classify handwritten digits (0–9) using **Principal Component Analysis (PCA)** for dimensionality reduction and **Logistic Regression** for classification.
@@ -29,3 +30,39 @@ This project demonstrates how to classify handwritten digits (0–9) using **Pri
 ---
 
 ## 📂 Project Structure
+```
+Digit-Classification-PCA/
+│── notebook.ipynb        # Jupyter Notebook with code
+│── README.md             # Project description
+```
+
+---
+
+## 🚀 How to Run
+1. Clone repository or download files.  
+2. Install dependencies:
+   ```bash
+   pip install scikit-learn matplotlib
+   ```
+3. Open Jupyter Notebook:
+   ```bash
+   jupyter notebook notebook.ipynb
+   ```
+
+---
+
+## 📊 Results
+- Model Accuracy: **~96%**
+- PCA 2D Visualization: Digits form clear clusters in reduced space.
+
+Example visualization:
+
+![PCA Plot Example](https://scikit-learn.org/stable/_images/sphx_glr_plot_digits_pca_001.png)
+
+---
+
+## ✅ Conclusion
+PCA helps reduce feature dimensions, speeds up training, removes noise, and enables visualization.  
+This makes it a powerful preprocessing step for ML pipelines.
+
+---
