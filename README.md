@@ -55,9 +55,7 @@ Digit-Classification-PCA/
 - Model Accuracy: **~96%**
 - PCA 2D Visualization: Digits form clear clusters in reduced space.
 
-Example visualization:
 
-![PCA Plot Example](https://scikit-learn.org/stable/_images/sphx_glr_plot_digits_pca_001.png)
 
 ---
 
